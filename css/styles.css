@@ -1,0 +1,143 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+.container-fluid{
+  padding:3% 15% 7%;
+}
+/* Color-section */
+.colored-section{
+  color:#fff;
+  background-color:#bf8040;
+}
+.white-section{
+    background-color: #fff;
+}
+/* Navbar */
+.navbar{
+  padding-bottom:4rem;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  margin:0;
+}
+.download-button{
+  margin:5% 3% 5% 4%;
+}
+/* Title image */
+.tindog{
+  width:60%;
+  margin:  0 0 0 70px;
+  transform: rotateZ(25deg);
+  position: absolute;
+  right: 30%;
+}
+#title{
+  text-align:left;
+}
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 0 3% ;
+}
+/* Feature Section */
+#features{
+  padding:9% 15%;
+  position: relative;
+  z-index:1;
+}
+.text-3{
+  font-size: 1.5rem;
+}
+.icon{
+  padding-bottom: 1rem;
+  color:#cc9966;
+}
+.icon:hover{
+  color:#bf8040;
+  padding-bottom: 0.5rem;
+}
+/* Testimonial section */
+#testimonials{
+  background-color:#cc9966;
+  font-family: 'Montserrat-bold' ,sans-serif;
+}
+.testimonial-image{
+  width: 20%;
+  padding:4% 3%;
+  border-radius: 100%;
+}
+.testimonial-text{
+  padding:1.5rem;
+  line-height:3rem;
+}
+.carousel-item{
+  padding:5% 15%;
+}
+/* Press-Section */
+#press{
+  background-color:#cc9966;
+  padding-bottom: 3%;
+}
+.press-logo{
+  width:14rem;
+  margin:4% 1%;
+}
+/* Pricing Section */
+#pricing{
+  padding:7% 15%;
+}
+.pricing-tags{
+  padding:3% 2%;
+}
+
+/* Footer section */
+#cta{
+  padding:7% 15%;
+  line-height: 3%;
+}
+.text-down{
+
+  font-size: 45px;
+  padding-bottom: 40px;
+}
+.footer-btn{
+  padding: 0 5% 0 0;
+}
+.footer-download{
+  padding:10px 4% 10px 3% ;
+  margin-right: 15px;
+}
+#footer{
+  padding:2.3% 5%;
+  line-height: 3rem;
+}
+#footer a{
+  color: black;
+}
+#footer a:hover {
+  color: blue;
+} 
+#insta a:hover {
+  color: #bc2a8d;
+}
+.footer-logo{
+  padding:9% 45% 0;
+}
+/* media Quarey */
+@media (max-width:1000px){
+  #title{
+    text-align: center;
+  }
+  .tindog{
+    position:static;
+    transform: rotate(0);
+  }
+  .footer-logo{
+    padding:9% 33% 0;
+  }
+}
